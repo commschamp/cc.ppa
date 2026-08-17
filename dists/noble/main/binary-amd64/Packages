@@ -1,0 +1,379 @@
+Package: cc-comms-dev
+Priority: optional
+Section: devel
+Installed-Size: 2231
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: all
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Filename: pool/main/c/cc.cmake/cc-comms-dev_2026-07-08-1~ppa1~noble_all.deb
+Size: 184060
+MD5sum: 09797ab52d91da4d587d341cd836963e
+SHA1: 90875ab31a724a9f979274c50ee2286b523ca206
+SHA256: c0eb46a75a55b6405fc50899027907f8f45bcce13544bc486ed3af805a3bbfd6
+SHA512: b872876cd2c65102d9ae1a5bc60c3cebdec1706bdc021f2180a7d88977d19f385d80cdef3a22f5ee86a1fa360bf461fa966eea242ff5c01ed4689675b72773d9
+Description: CommsChampion Ecosystem COMMS C++ library
+ Headers only C++ library to help implement binary communication protocol.
+Homepage: https://commschamp.github.io/
+
+Package: cc-commsdsl-dev
+Priority: optional
+Section: devel
+Installed-Size: 4863
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: libxml2-dev
+Filename: pool/main/c/cc.cmake/cc-commsdsl-dev_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 676386
+MD5sum: 6bf36c7ca68e5906d75870f3c0966068
+SHA1: f5d49365c4f8c2d548da534ab18272266d5ce28a
+SHA256: e4edd9a354c059146e6bf23c08800438740d8fa1e0a022ae1c076649ed10715b
+SHA512: de5a25daae5247aac3a957553b76ddd9a1403cad34aba4bb2e7d9c283bf4c2c99e820b1ede2bb3ecc4d9171097ca374561e8248136b3fc3a6ae59afd41f2a50f
+Description: Library to build commsdsl code generators.
+ Library provides an ability to parse CommsDSL schema files as well as help with implementation of new code generators.
+Homepage: https://commschamp.github.io/
+
+Package: cc-commsdsl-tools
+Priority: optional
+Section: devel
+Installed-Size: 11937
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libxml2 (>= 2.7.4)
+Filename: pool/main/c/cc.cmake/cc-commsdsl-tools_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 2630612
+MD5sum: 04989b7f8b76af5f8b3e89387d6e7e62
+SHA1: f9837cfcf2ac417679863e9cca09f4c14b7ee82d
+SHA256: e8db928c46fbcfbc4171c80d0795d34e37bc0fed1a1928a36abe413b3b1e44bb
+SHA512: 5d177b798f2ceab4074b091effa824fcda7694a54e5bf5c7f88fdc693b2fb5e4744db101fd65acf2d7e7a6ad87cb23997447aefab3e80b26f6062ade0f5b32de
+Description: Code generators of the CommsChampion Ecosystem.
+ All available code generators.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqtt311-client-bin
+Priority: optional
+Section: devel
+Installed-Size: 961
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1)
+Filename: pool/main/c/cc.cmake/cc-mqtt311-client-bin_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 209680
+MD5sum: 84a1d6379b330bb66dbeba722633c3cd
+SHA1: 3fc15f7128bb5489c2ca90e5c7681492883e2275
+SHA256: 590dabb1b0bebbe1483d1cd5b29b213b20da38b9f6338648942bf0da43dd4086
+SHA512: 9e71f4875c628add00d627e101710577c088b6481d894fe81797368762f23d3200b0c2a664a52e217a15c205452a725622cf294dc9dc9214259049232460e1c4
+Description: CommsChampion Ecosystem MQTT v3.1.1 client applications
+ Multiple MQTT v3.1.1 client side applications.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqtt311-client-dev
+Priority: optional
+Section: devel
+Installed-Size: 1705
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Filename: pool/main/c/cc.cmake/cc-mqtt311-client-dev_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 105724
+MD5sum: bf02f91fb948a7b6e1185dc5e0080d8b
+SHA1: dfae55eb8c115ad8472cbf59729a7b5a56b32abf
+SHA256: a1063d546a620f57566b67e3ab13305687641ff6efd36bba8fa400803654a3ae
+SHA512: 834f395de205ccb764e22296e869941a6b6bfe9f0ea766a029200e9516f3ab5ba0d8c0e89d6bf604e90c19ef15fb36a445e1c80f0d02811bed05800378c197c8
+Description: CommsChampion Ecosystem MQTT v3.1.1 client library development files
+ Development files for the C++ library implementing providing simple and
+ asynchronous interface to implement MQTT v3.1.1 client.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqtt311-dev
+Priority: optional
+Section: devel
+Installed-Size: 312
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: all
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: cc-comms-dev
+Filename: pool/main/c/cc.cmake/cc-mqtt311-dev_2026-07-08-1~ppa1~noble_all.deb
+Size: 24028
+MD5sum: 882856cc8fb09af78624029d436a6a89
+SHA1: 9b549014a2fbbbb4ee775df134c84529d089f848
+SHA256: caee946e8d94b7ae304d6fc9df8f13fecccfe5e85e50088c97d4df9e5a457d66
+SHA512: a11798b72f2f22754b319cff2615e6ea6b75e1f1bb406f82c7773edd7653a194a98c39d3b823fd1fa4bdde67723755000a63ad3bbed9be0f5eb413ac6dc16a9f
+Description: CommsChampion Ecosystem MQTT v3.1.1 protocol C++ library
+ Header-only C++ MQTT v3.1.1 protocol library.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqtt5-client-bin
+Priority: optional
+Section: devel
+Installed-Size: 1733
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1)
+Filename: pool/main/c/cc.cmake/cc-mqtt5-client-bin_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 278642
+MD5sum: 2a46b913b467c9f2b7acdf71cf215112
+SHA1: d8ab9f81b07656eb78c6ae439690fc8f982a275c
+SHA256: f8239791fcd229a9bc55b28bf3fe56028460a0f3b778a3e7ba2beef3acf77b29
+SHA512: 7b2908940d6b78214bc7046e914d97e65dd32d178cebdbc964ed6a54acc9dbdb6b2bcb2cf7a797fa9d6c272622dc4d4e3e1d4505b67970d5b9b623758595ce75
+Description: CommsChampion Ecosystem MQTT v5 client applications
+ Multiple MQTT v5 client side applications.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqtt5-client-dev
+Priority: optional
+Section: devel
+Installed-Size: 6196
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Filename: pool/main/c/cc.cmake/cc-mqtt5-client-dev_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 254200
+MD5sum: f3b2f530c4a5aa62abf616ba7912a4d0
+SHA1: 49b724d804872198b38f541ef7e5eb5eb04cd948
+SHA256: 8d4d6f6c9e6c0ab5aad84b0a06a58dd1780bc5fc811db623df3cf59b9eeb3fd3
+SHA512: 470a63743a1c6b9ab0aaf1af5058d7570dceaffae85ce3cf2e3b315907a426e0c4373713ea7ab95a4bd5927d8993f41c74bbeddea7571108dbfcb0010391bf40
+Description: CommsChampion Ecosystem MQTT v5 client library development files
+ Development files for the C++ library implementing providing simple and
+ asynchronous interface to implement MQTT v5 client.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqtt5-dev
+Priority: optional
+Section: devel
+Installed-Size: 637
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: all
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: cc-comms-dev
+Filename: pool/main/c/cc.cmake/cc-mqtt5-dev_2026-07-08-1~ppa1~noble_all.deb
+Size: 38006
+MD5sum: 66d8dda1c81450da671e8e542cedb89f
+SHA1: 0ab7507d3c6fbea71ed950e0a4c72a4775d34454
+SHA256: d6f6c24d719718cca839acf9d6db18f9a08ec8af320d63349e30a9a67f6de7a6
+SHA512: 146df54aa63ecbcdba58fa5bd82b501fb06a1af52133ad9d0236d776dcaaf8757a94329533d531e84e8eda95ed48b6e2a05dafb39c2a589d33088f0062b26b79
+Description: CommsChampion Ecosystem MQTT v5 protocol C++ library
+ Header-only C++ MQTT v5 protocol library.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqttsn-client-bin
+Priority: optional
+Section: devel
+Installed-Size: 1649
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
+Filename: pool/main/c/cc.cmake/cc-mqttsn-client-bin_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 259234
+MD5sum: eda340c56ae74f90644b6b0d9b184922
+SHA1: d65c5047bc6ad5c45e64e50a6ac24940ef8fcb67
+SHA256: 7b019e53ae2c1985f800d8d05ac7691a86bc1996c821074a6712c94f9697649a
+SHA512: e910a2875bdf02c715269d735f21782f566dacb1cb43952a852c1e26ad2ca2254436c66546a328cc8f445f3f63f382fd9877cf5f49b75b49beedb12b8e520107
+Description: CommsChampion Ecosystem MQTT-SN client applications
+ Multiple MQTT-SN client side applications.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqttsn-client-dev
+Priority: optional
+Section: devel
+Installed-Size: 3278
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Filename: pool/main/c/cc.cmake/cc-mqttsn-client-dev_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 160152
+MD5sum: 07b6d5537a5e2210053faf6eb1960ea9
+SHA1: a8708b85cf36592671c8d412e9f39193e4a42a06
+SHA256: a6aebce0e1b3d1946cfe0efd0219cf0214988ac1677eaa1f3b3fa65ee87ed3db
+SHA512: d423e36d390ec212259d7dc5037b97a0bd1a80ee11c683744e8dfd8ef8a70fa9ded50892b26dec3722c85876e5cbabc62d3611b885f67304af5f3714f1b71568
+Description: CommsChampion Ecosystem MQTT-SN client library development files
+ Development files for the C++ library implementing providing simple and
+ asynchronous interface to implement MQTT-SN client.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqttsn-dev
+Priority: optional
+Section: devel
+Installed-Size: 643
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: all
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: cc-comms-dev
+Filename: pool/main/c/cc.cmake/cc-mqttsn-dev_2026-07-08-1~ppa1~noble_all.deb
+Size: 31854
+MD5sum: 2e5294810e8413eccb2307cae3981761
+SHA1: fb96992a293d45e66f491e4a8001659fa37512f7
+SHA256: 334c8c5c522ce908285ed96f2444105f08509996203032077d19a92bddfa5b08
+SHA512: d0218b61beccaa42ca0bd08d67e6b9f52767f4d4827258d3567b5b2a1a8d112e9f53ca71b557b3bc55098b21e6d9c7504368ebb5b1ebb7827af1c9ca5c1ef743
+Description: CommsChampion Ecosystem MQTT-SN v1.2 protocol C++ library
+ Header-only C++ MQTT-SN v1.2 protocol library.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqttsn-gateway-bin
+Priority: optional
+Section: devel
+Installed-Size: 746
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
+Filename: pool/main/c/cc.cmake/cc-mqttsn-gateway-bin_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 165650
+MD5sum: f38630f9bbf92c08206e56a16fb9f547
+SHA1: 0c53c4fb7f55d3a3f8f8b26b650ac211977318e6
+SHA256: 91a5a82ac6fa04dcaaa4943d3e84706702009d16c2f756aa6f7081eb531c56c1
+SHA512: 15deb24554b9d4b120fdabb145a95be4c401ca8b4bd8adc93ca0e28b3ea8ac7c7c08f195a4aa47c2fd631cafc64258ace47dc18524c433451009509e77519ac3
+Description: CommsChampion Ecosystem MQTT-SN gateway application
+ MQTT-SN gateway application.
+Homepage: https://commschamp.github.io/
+
+Package: cc-mqttsn-gateway-dev
+Priority: optional
+Section: devel
+Installed-Size: 5312
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Filename: pool/main/c/cc.cmake/cc-mqttsn-gateway-dev_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 215102
+MD5sum: a1ba9e76ad29d06171c1cd77dae1e04c
+SHA1: ca102be557ccb1a59c17b808f6e19d0c917615af
+SHA256: be3f1af2f60683e0f137159d589db604934162aa475429506cab430c324caed4
+SHA512: ede95962fc1fa010a84cf1ec8f47e957d72ea6ac5d474e43241412e09c5cf661e10c09165d9c77a317fc2965dd4c8c6ca2e83df836e27e932ea7b06cf1340d32
+Description: CommsChampion Ecosystem MQTT-SN gateway library development files
+ Development files for the C++ library implementing providing simple and
+ asynchronous interface to implement MQTT-SN gateway.
+Homepage: https://commschamp.github.io/
+
+Package: cc-tools-qt-bin
+Priority: optional
+Section: devel
+Installed-Size: 827
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: cc-tools-qt-plugins, cc-tools-qt-lib (>= 2026-07-08), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6widgets6t64 (>= 6.3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/c/cc.cmake/cc-tools-qt-bin_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 270624
+MD5sum: 7b787d64e148414167967bdc250bf6b4
+SHA1: 24d16c73b8bd86f8697cdb2d2a98468bcbb71ff4
+SHA256: bc0f270be56be5afbeb1f6ad3ffbd6858e299300dd185e4160e232cb4d47064b
+SHA512: ece61766f2d471e5313fdc06bf9a81dd0e5b7faef42dc8101664d5562255dccb308ea985fd087059215719e036e174c848d8b323a6676c6ac0ee317df85aaed9
+Description: CommsChampion Ecosystem Tools
+ Tools for visual protocol debugging and analysis.
+Homepage: https://commschamp.github.io/
+
+Package: cc-tools-qt-dev
+Priority: optional
+Section: devel
+Installed-Size: 265
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: cc-tools-qt-lib
+Filename: pool/main/c/cc.cmake/cc-tools-qt-dev_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 29474
+MD5sum: 02b3277072430404f7a1fa8fac457c4f
+SHA1: 3817941b291f2ff3e8929ddba4585390e8b5b6b7
+SHA256: 5386f6b3bb9b16a763a3e4e39735a88148da0b3088fa42c00002f2e67b81d44e
+SHA512: 6af28c88a6a1bc1479961912322d96b4eb5c25c484da0b75429db1ea9c71473bd9d45d7b912ebe53b43a69d1e537d66dbe383dd32a5c5364c11721ecc261f5f5
+Description: CommsChampion Ecosystem tools development files
+ Development files for developing plugins for CommsChampion Tools.
+Homepage: https://commschamp.github.io/
+
+Package: cc-tools-qt-lib
+Priority: optional
+Section: devel
+Installed-Size: 361
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.4.0), libstdc++6 (>= 13.1)
+Filename: pool/main/c/cc.cmake/cc-tools-qt-lib_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 101282
+MD5sum: 624ba7104842553fb1d477503f2744a0
+SHA1: 6298c597db448802742642a2166f7b7a41333b4e
+SHA256: 1897874779df20ae66034e5ba31a631d304694ea76a9342d13958e3948b338c1
+SHA512: 006929540c8feec1da48b6e7511ddb23bc334c20d9bcb359d70a269b2d14c91cda07d9966eab38fc8f4fd9460c4149ab1e4ff5720ed828387a9ae58ba42fb481
+Description: CommsChampion Ecosystem tools library
+ Library for developing plugins for CommsChampion Tools.
+Homepage: https://commschamp.github.io/
+
+Package: cc-tools-qt-plugins
+Priority: optional
+Section: devel
+Installed-Size: 35901
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: amd64
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: cc-tools-qt-lib (>= 2026-07-08), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6network6t64 (>= 6.4.0), libqt6serialport6 (>= 6.2.1), libqt6widgets6t64 (>= 6.1.2), libstdc++6 (>= 13.1)
+Filename: pool/main/c/cc.cmake/cc-tools-qt-plugins_2026-07-08-1~ppa1~noble_amd64.deb
+Size: 3656938
+MD5sum: 924e6e04662cc5bf63ff811d5a8bb98b
+SHA1: 06cd9234a549790838aa72596d0394d3bbd54ca9
+SHA256: 0d26374684004735df28feac4d40f724113ebd497dafff10b5665546410d0dc6
+SHA512: a56220d43292c35e40cbf993c39898c5fd78e974ea317aff84685cf1a26dbad9007b4e97085913647566ec5faa9372040bbc0b3ea6ae7e5f458016754afab28a
+Description: CommsChampion Ecosystem Tools plugins
+ Plugins for the CommsChampion Ecosystem tools.
+Homepage: https://commschamp.github.io/
+
+Package: cc-ublox-dev
+Priority: optional
+Section: devel
+Installed-Size: 14089
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: all
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: cc-comms-dev
+Filename: pool/main/c/cc.cmake/cc-ublox-dev_2026-07-08-1~ppa1~noble_all.deb
+Size: 434012
+MD5sum: 34d3c2cd566944b0618a6c11d0b98132
+SHA1: 9f4b2d6b847a2b9abad3aa5189630fd12eae85fc
+SHA256: 483aad43743892863edf1db9a5c088a2893fdd5dfaafad3a7ff00dfe1ef512b8
+SHA512: 86eb139b327f86d36ec2e3d1615523081f03a95865a3a6fcb0e488985d01b1624c87f86bbf20a0b28875b7867ad9db4a47b81e19ccc98474f5677193883af3dd
+Description: CommsChampion Ecosystem UBX (u-blox) C++ library
+ Header-only C++ UBX (u-blox) protocol library.
+Homepage: https://commschamp.github.io/
+
+Package: cc-x509-dev
+Priority: optional
+Section: devel
+Installed-Size: 477
+Maintainer: Alex Robenko <arobenko@gmail.com>
+Architecture: all
+Source: cc.cmake
+Version: 2026-07-08-1~ppa1~noble
+Depends: cc-comms-dev
+Filename: pool/main/c/cc.cmake/cc-x509-dev_2026-07-08-1~ppa1~noble_all.deb
+Size: 30336
+MD5sum: 59f6b3f8c46490e93b54edf20054553f
+SHA1: cef0aab73f50c34a4fc7f0651fa1010fbb49cfd1
+SHA256: 836dbf6f0df74668f6393b49ca215b170ee50096cb5bb418e940e18fe078738d
+SHA512: 212c575ac809608ffe0673dfdee1e31109dabcf39298aa619a4f519ca4325e994d88e68a3d3cd34e9c022ebbc2b1da4458b2a8592e8342b2919e10468ab8bf1c
+Description: CommsChampion Ecosystem X509 certificate encoding C++ library
+ Header-only C++ X509 certificate encoding library.
+Homepage: https://commschamp.github.io/
+

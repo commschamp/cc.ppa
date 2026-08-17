@@ -17,7 +17,7 @@ Import the repository signing key:
 ```
 sudo curl -o /etc/apt/keyrings/commschamp.asc https://commschamp.github.io/cc.ppa/commschamp.asc
 ```
-Configure an APT source pointing to the appropriate Ubuntu distribution.
+Create `/etc/apt/sources.list.d/commschamp.list` and inside configure an APT source pointing to the appropriate Ubuntu distribution.
 ```
 deb [signed-by=/etc/apt/keyrings/commschamp.asc] https://commschamp.github.io/cc.ppa/ <distro> main
 ```
@@ -27,7 +27,7 @@ For example for Ubuntu-24.04 (noble) use:
 deb [signed-by=/etc/apt/keyrings/commschamp.asc] https://commschamp.github.io/cc.ppa/ noble main
 ```
 
-Supported distributions:
+Currently supported distributions:
 
 - noble (Ubuntu-24.04)
 

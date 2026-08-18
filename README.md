@@ -56,6 +56,7 @@ Alphabetically sorted.
 - **cc-mqttsn-gateway-dev** - Development files for the [MQTT-SN gateway library](https://github.com/commschamp/cc.mqttsn.libs)
 - **cc-tools-qt-bin** - Binary [CommsChampion Tools applications](https://github.com/commschamp/cc_tools_qt/)
 - **cc-tools-qt-dev** - Development files for the [CommsChampion Tools](https://github.com/commschamp/cc_tools_qt/)
+- **cc-tools-qt-lib** - [CommsChampion Tools library](https://github.com/commschamp/cc_tools_qt/)
 - **cc-tools-qt-plugins** - Various plugins for the [CommsChampion Tools](https://github.com/commschamp/cc_tools_qt/)
 - **cc-ublox-dev** - [U-blox (UBX) protocol definition library](https://github.com/commschamp/cc.ublox.generated/)
 - **cc-x509-dev** - [X509 certificate definition library](https://github.com/commschamp/cc.x509.generated/)
